@@ -4,19 +4,21 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  align-items: center;
   font-family: 'Raleway', sans-serif;
 }
 /* class to format headings within the parent container */
-.container h1 {
+#title {
   background-color: #FF6347;
-  height: 80px;
+  height: 50px;
   display: flex;
   align-content: center;
   justify-content: center;
+  width: 100%;
+  padding: 10px;
+  color: white;
 }
-/* format heading text */
-.container h1 p {
-    color: white;
-    height: auto;
-    width: auto;
+
+span {
+  align-self: center;
 }
