@@ -1,2 +1,22 @@
-<style>
-</style>
+
+/* parent container to hold all visible elements*/
+.container  {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+}
+/* class to format headings within the parent container */
+.container h1 {
+  background-color: #FF6347;
+  height: 80px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+/* format heading text */
+.container h1 p {
+    color: white;
+    height: auto;
+    width: auto;
+}
