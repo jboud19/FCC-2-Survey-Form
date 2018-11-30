@@ -21,8 +21,12 @@
   color: white;
 }
 
-
-
+.input-prompt {
+  color: lightgrey;
+}
+.entryfield {
+  flex-direction: row;
+}
 span {
   align-self: center;
 }
